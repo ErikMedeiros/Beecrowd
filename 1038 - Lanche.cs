@@ -1,11 +1,14 @@
-using System; 
+//https://www.beecrowd.com.br/repository/UOJ_1038.html
+using System;
 
-class URI {
+class URI
+{
 
-    static void Main(string[] args) { 
+    static void Main(string[] args)
+    {
 
-        double [,] table = new double [5, 1] { {4.00}, {4.50}, {5.00}, {2.00}, {1.50} };
-        string [] nums = Console.ReadLine().Split(' ');
+        double[,] table = new double[5, 1] { { 4.00 }, { 4.50 }, { 5.00 }, { 2.00 }, { 1.50 } };
+        string[] nums = Console.ReadLine().Split(' ');
         int cod, uni;
 
         cod = int.Parse(nums[0]) - 1;

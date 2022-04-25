@@ -1,3 +1,4 @@
+//https://www.beecrowd.com.br/repository/UOJ_1072.html
 using System;
 
 class URI
